@@ -144,6 +144,9 @@ a {
   transition: all 1s;
   background-color: var(--secondary-color-light);
 }
+.gettLogo {
+  img src="../Taxi/assets/img/Gett_logo1.png" alt="gett logo" 
+}
 .box-4 img {
   display: block;
   margin: auto;
