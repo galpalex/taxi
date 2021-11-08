@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM Plex Sans Hebrew");
 
-body {
-  font-family: "IBM Plex Sans Hebrew", serif;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+:root {
+  --primary-color: #f5b906;
+  --secondary-color: #383838;
+  --secondary-color-light: #f8f8f8;
 }
 
 * {
@@ -12,11 +12,13 @@ body {
   padding: 0;
   max-width: 100%;
 }
-:root {
-  --primary-color: #f5b906;
-  --secondary-color: #383838;
-  --secondary-color-light: #f8f8f8;
+
+body {
+  font-family: "IBM Plex Sans Hebrew", serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
+
 .mainContainer {
   display: grid;
   grid-template-areas:
